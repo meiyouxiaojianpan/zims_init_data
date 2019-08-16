@@ -1,0 +1,8 @@
+zism:
+  host: localhost:9090/zims
+  user: ${zims.host}/api/users/like
+  contract:
+    get: ${zims.host}/api/contracts/page
+    insert: ${zims.host}/api/contracts
+  project:
+    insert: ${zims.host}/api/projects
